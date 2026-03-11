@@ -1,6 +1,6 @@
 // API base URL - in production, point to your Deno Deploy URL
 const API_BASE = import.meta.env.PROD
-  ? 'https://your-app.deno.dev'
+  ? 'https://tracker.qqx-d.deno.net'
   : '';
 
 async function request(path, options = {}) {
